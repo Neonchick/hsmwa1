@@ -16,6 +16,8 @@ class ChatFactory extends Factory
      */
     public function definition()
     {
-        return [];
+        return [
+            'title' => fake()->text(15),
+        ];
     }
 }

@@ -14,4 +14,14 @@ class Chat extends Model
         return $this->belongsToMany(User::class);
     }
 
+    public function messages()
+    {
+        return $this->hasMany(Message::class);
+    }
+
+    public function latestMessage()
+    {
+        return $this->hasOne(Message::class)->latestOfMany();
+    }
+
 }
