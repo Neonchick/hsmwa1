@@ -9,11 +9,11 @@
         }
         .user_info span{
             font-size: 20px;
-            color: white;
+            color: black;
         }
         .user_info p{
             font-size: 10px;
-            color: rgba(255,255,255,0.6);
+            color: gray;
         }
         .img_cont{
             position: relative;
@@ -25,12 +25,13 @@
             width: 70px;
             border:1.5px solid #f5f6fa;
         }
+        .contacts{
+            margin: 20px;
+        }
     </style>
 
     @foreach($chats as $chat)
-{{--        <h2>{{ $chat->title }}</h2>--}}
-{{--        <h3>{{ $chat->latestMessage }}</h3>--}}
-        <div class="d-flex bd-highlight">
+        <div class="d-flex bd-highlight contacts">
             <div class="img_cont">
                 <img src="https://therichpost.com/wp-content/uploads/2020/06/avatar2.png" class="rounded-circle user_img">
             </div>

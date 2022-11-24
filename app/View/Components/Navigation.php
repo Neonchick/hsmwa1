@@ -15,7 +15,7 @@ class Navigation extends Component
      */
     public function __construct()
     {
-        $this->menu = config('hsdemo.menu');
+        $this->menu = config('hsmwa1.menu');
     }
 
     /**

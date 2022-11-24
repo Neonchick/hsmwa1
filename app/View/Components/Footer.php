@@ -15,7 +15,7 @@ class Footer extends Component
      */
     public function __construct()
     {
-        $this->menu = config('hsmwa1.php.menu');
+        $this->menu = config('hsmwa1.menu');
     }
 
 
