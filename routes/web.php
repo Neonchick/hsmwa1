@@ -16,9 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+ray()->clearAll();
 //Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/', [ChatController::class, 'index']);
-Route::resource('message', ChatController::class);
+Route::resource('messages', ChatController::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
