@@ -1,3 +1,3 @@
-# Harbour.Space Modern Web Application 1
+# PhotoWorld
 
-This repository for Harbour.Space Modern Web Application 1 classes.
+An application for communication and photo sharing.
